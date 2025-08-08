@@ -31,7 +31,7 @@ jobs:
           - name: Checkout Content Repo
             uses: actions/checkout@v4
             with:
-             repository: Win-Chin/obsidian# <-- 修改这里
+             repository: Win-Chin/win-chin.github.io# <-- 修改这里
               token: ${{secrets.ACCESS_TOKEN}}
               path: content
 

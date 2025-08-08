@@ -8,7 +8,7 @@ on:
         branches:
       # 当推送到这个分支时触发
             - v4
-    workflow_dispatch:# 允许在 GitHub Actions 页面手动触发
+    workflow_dispatch:  # 允许在 GitHub Actions 页面手动触发
 
 permissions:
     contents: read
